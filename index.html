@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <style>
+
+                .form-padding {
+                    width: 200px;
+                    padding: 30px;
+                    text-align: center;
+                }
+                
+                label {
+                    color: rgb(62, 62, 233);
+                }
+
+                input {
+                    padding: 10px;
+                    margin: 10px 0;
+                    border: 2px solid #eee;
+                    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+                }
+
+                .email-style-here {
+                    border: solid rgb(201, 29, 29);
+                }
+
+        </style>
+
+    </head>
+
+
+
+  <body>
+    <form class="form-padding">
+
+
+        <h1 id="text"></h1>
+        
+        
+      <p>
+        <label>Title</label>
+        <label>
+          <input type="radio" name="title" id="mr" />
+          Mr
+        </label>
+        <label>
+          <input type="radio" name="title" id="mrs" />
+          Mrs
+        </label>
+        <label>
+          <input type="radio" name="title" id="miss" />
+          Miss
+        </label>
+        <label>
+          <input type="radio" name="title" id="other" />
+          Other
+        </label>
+
+        <p>
+            <label>First name</label>
+            <input type="text" id="firstname">
+        </p>
+
+         <p class="some-class-here">
+            <label>Last name</label>
+            <input type="text" id="lastname">
+            <input type="checkbox">
+        </p>
+
+         <p>
+            <label>Email</label>
+            <input class="email-style-here" type="text">
+        </p>
+
+         <p>
+            <label>Date of birth</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+
+         <p>
+            <label>Phone number</label>
+            <input class="phone-style-here" type="text">
+        </p>
+
+         <p>
+            <label>Password</label>
+            <input type="text">
+        </p>
+
+         <p>
+            <label>Confirm password</label>
+            <input class="email-style-here" type="text">
+        </p>
+
+        <p>
+            <label>Country</label>
+            <select>
+                <option>Canada</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Italy</option>
+                <option>Russia</option>
+                <option>United States</option>
+            </select>
+        </p>
+
+        <p>
+            <label> 
+                <input type="checkbox"> 
+                I agree to the <a href="">terms and conditions</a>
+            </label>
+        </p>
+
+        <p>
+
+            <input type="submit" name="submit" id="submitBtn">
+            <button id="try">Submit</button>
+
+        </p>
+
+      </p>
+    </form>
+  
+
+
+
+
+  </body>
+
+</html>
